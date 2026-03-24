@@ -9,7 +9,7 @@ from ats_checker import check_ats
 from recommender import get_recommendations
 
 st.set_page_config(
-    page_title="CareerLens — Resume Analyzer",
+    page_title="Resume Keyword Scanner — Resume Analyzer",
     page_icon="",
     layout="wide"
 )
@@ -60,7 +60,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ── Header ──────────────────────────────────────────────────
-st.markdown('<p class="main-title">📄 CareerLens</p>', unsafe_allow_html=True)
+st.markdown('<p class="main-title">📄 Resume Keyword Scanner</p>', unsafe_allow_html=True)
 st.markdown('<p class="sub-title">AI-Powered Resume & Job Description Analyzer</p>', unsafe_allow_html=True)
 
 MAX_FILE_SIZE = 5 * 1024 * 1024  # 5MB
